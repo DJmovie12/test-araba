@@ -1,4 +1,7 @@
 const gonderbtn = document.getElementById('gonderbtn');
+function geri(){
+  location="https://www.degerkaybihesapla.net/";
+}
 function gonder() {
   var marka = document.getElementById('marka').value;
   var km = document.getElementById('km').value;
